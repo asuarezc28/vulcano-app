@@ -1,0 +1,9 @@
+.local-product-detail {
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    top: 0;
+    z-index: 1;
+  }

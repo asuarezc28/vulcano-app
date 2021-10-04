@@ -1,0 +1,90 @@
+.sidebar-menu {
+  position: absolute;
+  height: 100%;
+  width: 5%;
+  background-color: blue;
+  z-index: 1;
+  right: 20%;
+  top: 0;
+}
+
+.sidebar-menu-off {
+  position: absolute;
+  height: 100%;
+  width: 5%;
+  background-color: blue;
+  z-index: 1;
+  right: 0%;
+  top: 0;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-menu-xs {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  background-color: blue;
+  z-index: 1;
+  right: 80%;
+  top: 0;
+}
+
+.sidebar-menu-off-xs {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  background-color: blue;
+  z-index: 1;
+  right: 0%;
+  top: 0;
+}
+
+.sidebar-menu-sm {
+  position: absolute;
+  height: 100%;
+  width: 10%;
+  background-color: blue;
+  z-index: 1;
+  right: 40%;
+  top: 0;
+}
+
+.sidebar-menu-off-sm {
+  position: absolute;
+  height: 100%;
+  width: 10%;
+  background-color: blue;
+  z-index: 1;
+  right: 0%;
+  top: 0;
+}
+
+.sidebar-menu-md {
+  position: absolute;
+  height: 100%;
+  width: 10%;
+  background-color: blue;
+  z-index: 1;
+  right: 30%;
+  top: 0;
+}
+
+.sidebar-menu-off-md {
+  position: absolute;
+  height: 100%;
+  width: 10%;
+  background-color: blue;
+  z-index: 1;
+  right: 0%;
+  top: 0;
+}
+
+
+.divButton {
+  width: 100%;
+  height: 10%;
+}

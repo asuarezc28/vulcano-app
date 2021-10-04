@@ -1,0 +1,20 @@
+<div [ngClass]="{
+  'sidebar-menu-off': !show,
+  'sidebar-menu': show
+}" [ngClass.xs]="{
+  'sidebar-menu-off-xs': !show,
+  'sidebar-menu-xs': show
+}"
+[ngClass.sm]="{
+  'sidebar-menu-off-sm': !show,
+  'sidebar-menu-sm': show
+}"
+[ngClass.md]="{
+  'sidebar-menu-off-md': !show,
+  'sidebar-menu-md': show
+}">
+  <div class="divButton" *ngFor="let link of links">
+    <button mat-raised-button color="accent" [routerLink]="link.url" (click)="sendInfo()"
+      routerLinkActive="active-route">{{link.label}}</button>
+  </div>
+</div>
